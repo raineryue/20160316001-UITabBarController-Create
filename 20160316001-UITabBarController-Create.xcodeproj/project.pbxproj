@@ -10,7 +10,6 @@
 		D531F2CD1C9940F800CB81EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D531F2CC1C9940F800CB81EC /* main.m */; };
 		D531F2D01C9940F800CB81EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D531F2CF1C9940F800CB81EC /* AppDelegate.m */; };
 		D531F2D31C9940F800CB81EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D531F2D21C9940F800CB81EC /* ViewController.m */; };
-		D531F2D61C9940F800CB81EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D531F2D41C9940F800CB81EC /* Main.storyboard */; };
 		D531F2D81C9940F800CB81EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D531F2D71C9940F800CB81EC /* Assets.xcassets */; };
 		D531F2DB1C9940F800CB81EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D531F2D91C9940F800CB81EC /* LaunchScreen.storyboard */; };
 		D531F2E61C9940F900CB81EC /* _0160316001_UITabBarController_CreateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D531F2E51C9940F900CB81EC /* _0160316001_UITabBarController_CreateTests.m */; };
@@ -41,7 +40,6 @@
 		D531F2CF1C9940F800CB81EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D531F2D11C9940F800CB81EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D531F2D21C9940F800CB81EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D531F2D51C9940F800CB81EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D531F2D71C9940F800CB81EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D531F2DA1C9940F800CB81EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D531F2DC1C9940F800CB81EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -105,7 +103,6 @@
 				D531F2CF1C9940F800CB81EC /* AppDelegate.m */,
 				D531F2D11C9940F800CB81EC /* ViewController.h */,
 				D531F2D21C9940F800CB81EC /* ViewController.m */,
-				D531F2D41C9940F800CB81EC /* Main.storyboard */,
 				D531F2D71C9940F800CB81EC /* Assets.xcassets */,
 				D531F2D91C9940F800CB81EC /* LaunchScreen.storyboard */,
 				D531F2DC1C9940F800CB81EC /* Info.plist */,
@@ -245,7 +242,6 @@
 			files = (
 				D531F2DB1C9940F800CB81EC /* LaunchScreen.storyboard in Resources */,
 				D531F2D81C9940F800CB81EC /* Assets.xcassets in Resources */,
-				D531F2D61C9940F800CB81EC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +304,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D531F2D41C9940F800CB81EC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D531F2D51C9940F800CB81EC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D531F2D91C9940F800CB81EC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

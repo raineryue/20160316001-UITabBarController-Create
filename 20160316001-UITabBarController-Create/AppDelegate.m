@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,32 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    
+    UIViewController *viewController1 = [[UIViewController alloc] init];
+    viewController1.view.backgroundColor = [UIColor redColor];
+    viewController1.tabBarItem.title = @"消息";
+    viewController1.tabBarItem.image = [UIImage imageNamed:@"tab_recent_nor"];
+    [tabBarController addChildViewController:viewController1];
+    
+    UIViewController *viewController2 = [[UIViewController alloc] init];
+    viewController2.view.backgroundColor = [UIColor blueColor];
+    viewController2.tabBarItem.title = @"好友";
+    viewController2.tabBarItem.image = [UIImage imageNamed:@"tab_buddy_nor"];
+    [tabBarController addChildViewController:viewController2];
+    
+    UIViewController *viewController3 = [[UIViewController alloc] init];
+    viewController3.view.backgroundColor = [UIColor greenColor];
+    viewController3.tabBarItem.title = @"动态";
+    viewController3.tabBarItem.image = [UIImage imageNamed:@"tab_qworld_nor"];
+    [tabBarController addChildViewController:viewController3];
+    
+    self.window.rootViewController = tabBarController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
